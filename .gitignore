@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Static files cache
+*.cache
+
+# Testing
+coverage/
+*.lcov
+*.lcov.info
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor-specific files
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.lock
+*.bak
+*.tmp
+*.temp
+
+# Ignore package-lock.json if using Yarn or pnpm
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore build files for Docker or deployment
+.dockerignore
+.docker-compose.yml
+
+# Storybook
+.storybook-out/
+
+# Other Next.js caches
+.next-turbo/
+
+# Ignore optional debug and error reports
+.report
+
+# Temporary local dev tools files
+.npmrc
+.yarnrc
